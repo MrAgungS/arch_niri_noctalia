@@ -9,10 +9,10 @@ mkdir -p ~/.config/mpd ~/.config/ncmpcpp ~/.local/share/mpd/playlists
 ```
 Copy the configuration files:
 ```
-cp ~/{yourfiles}/mpd.conf ~/.config/mpd/mpd.conf
-cp ~/{yourfiles}/ncmpcpp_config ~/.config/ncmpcpp/config
+cp ~/{your_path}/mpd.conf ~/.config/mpd/mpd.conf
+cp ~/{your_path}/ncmpcpp_config ~/.config/ncmpcpp/config
 ```
-Replace {yourfiles} with the path to the directory that contains the configuration files.
+Replace {your_path} with the path to the directory that contains the configuration files.
 
 If done just start the services:
 ```

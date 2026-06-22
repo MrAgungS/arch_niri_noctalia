@@ -1,4 +1,7 @@
-# MUSIC
+# IMPORTANT
+Still using Noctalia Shell v4, so this config is only relevant for v4. Will update once v5 is stable.
+
+## MUSIC
 Install the required packages:
 ```
 sudo pacman -S mpd ncmpcpp mpc

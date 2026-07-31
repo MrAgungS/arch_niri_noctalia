@@ -1,5 +1,5 @@
 # IMPORTANT
-Still using Noctalia Shell v4, so this config is only relevant for v4. Will update once v5 is stable.
+Using Noctalia V5 Beta.
 
 ## MUSIC
 Install the required packages:

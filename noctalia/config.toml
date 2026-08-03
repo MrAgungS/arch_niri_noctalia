@@ -352,9 +352,9 @@ capsule            = false
 # capsule_opacity  = 1.0
 # capsule_border   = "outline"      # uncomment for a border on all widgets
 
-start  = ["workspaces", "sysmon"]
-center = ["clock", "date"]
-end    = ["media", "notifications", "clipboard", "network", "bluetooth", "volume", "brightness", "battery", "control-center", "session"]
+start  = ["sysmon", "spacer", "workspaces"]
+center = ["date", "spacer", "clock"]
+end    = ["notifications", "clipboard", "volume", "brightness", "battery", "control-center"]
 
 # Commands for the bar margin outside widget sections (dead zone):
 # [bar.main.dead_zone.actions]

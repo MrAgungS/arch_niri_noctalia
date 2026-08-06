@@ -1,7 +1,5 @@
-// ============================================================
 // Noctalia v5 integration
 // Namespaces verified against docs.noctalia.dev/v5/compositor-settings/niri/
-// ============================================================
 
 // Option 1: Blurred Overview Wallpaper (Noctalia backdrop layer within niri's overview backdrop).
 // Requires [niri/backdrop] enabled in Noctalia's own config.
@@ -115,13 +113,12 @@ input {
     focus-follows-mouse
 }
 
-// ============================================================
 // OUTPUT CONFIG — was disabled before (the "/-" prefix comments
 // out the whole block). Uncommented here so mode/scale/position
 // actually apply. VERIFY this matches your real output first:
 // run `niri msg outputs` and check the name is really "eDP-1"
 // and that "1920x1080@60.008" is a mode that monitor supports.
-// ============================================================
+
 output "eDP-1" {
     // off
     mode "1920x1080@60.008"

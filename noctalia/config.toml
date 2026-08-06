@@ -45,7 +45,7 @@ cam_filter_regex = ""                # camera app names to ignore in privacy ind
 screen_filter_regex = ""             # screen-sharing app names to ignore in privacy indicators and OSD
 
 [shell.animation]
-enabled = true
+enabled = false
 speed   = 1.0                       # 0.5 = 2× slower, 2.0 = 2× faster
 
 # [shell.shadow]
@@ -334,7 +334,7 @@ delete   = ["del"]
 [bar.main]
 position           = "top"          # top | bottom | left | right
 thickness          = 34
-background_opacity = 1.0
+background_opacity = 0.5
 radius             = 12
 margin_ends        = 180
 margin_edge        = 10
@@ -354,7 +354,7 @@ capsule            = false
 
 start  = ["sysmon", "spacer", "workspaces"]
 center = ["date", "spacer", "clock"]
-end    = ["notifications", "clipboard", "volume", "brightness", "battery", "control-center"]
+end    = ["notifications", "clipboard", "volume", "brightness", "battery", "wallpaper", "control-center"]
 
 # Commands for the bar margin outside widget sections (dead zone):
 # [bar.main.dead_zone.actions]

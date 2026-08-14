@@ -354,7 +354,7 @@ capsule            = false
 
 start  = ["sysmon", "spacer", "workspaces"]
 center = ["date", "spacer", "clock"]
-end    = ["notifications", "clipboard", "volume", "brightness", "battery", "wallpaper", "control-center"]
+end    = ["launcher", "notifications", "clipboard", "volume", "brightness", "battery", "wallpaper", "control-center"]
 
 # Commands for the bar margin outside widget sections (dead zone):
 # [bar.main.dead_zone.actions]
